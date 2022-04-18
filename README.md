@@ -24,6 +24,8 @@ pip install git+https://github.com/JeffersonLab/pyced.git@v0.1.0
 ```
 
 ## Running tests
+```bash
 git clone https://github.com/JeffersonLab/pyced.git
 cd pyced
 python3.7 setup.py test
+```
