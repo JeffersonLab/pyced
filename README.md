@@ -8,5 +8,22 @@ wrapped so far, including the Inventory call and hierarchical type checking.  So
 ced2gnn software.
 
 ## Installation
+This code has not been packaged up for release through PyPI, etc. but is installable directly from GitHub.  This is
+developed against the standard pubtools Python 3.7 installation.
 
-pip install git+'
+To install the latest version from source:
+
+```bash
+pip install git+https://github.com/JeffersonLab/pyced.git
+```
+
+To install a specific tag (typically a version):
+
+```bash
+pip install git+https://github.com/JeffersonLab/pyced.git@v0.1.0
+```
+
+## Running tests
+git clone https://github.com/JeffersonLab/pyced.git
+cd pyced
+python3.7 setup.py test
